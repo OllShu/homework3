@@ -103,5 +103,25 @@ public class Main {
         int whitetotal = white*schooloffice;
         int browntotal = brown*schooloffice;
             System.out.println("В школе, где "+schooloffice+" классов, нужно "+whitetotal+" банок белой краски и "+browntotal+" банок коричневой краски");
+
+        int banana = 5;
+        int weightOneBanana = 80;
+        int weightbananas = banana*weightOneBanana;
+
+        int milk = 200;
+        int weightOneMilk = 105;
+        int weightmilk = milk/100*weightOneMilk;
+
+        int iceCream = 2;
+        int weightOneIceCream = 100;
+        int weightIceCream = iceCream*weightOneIceCream;
+
+        int eggs = 4;
+        int weightOneEggs = 70;
+        int weightEggs = eggs*weightOneEggs;
+
+        double weightproducts = weightbananas+weightmilk+weightIceCream+weightEggs;
+        weightproducts = weightproducts/1000;
+            System.out.println("Завтрак спортсмена весит "+weightproducts+" кг");
     }
 }
