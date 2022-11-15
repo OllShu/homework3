@@ -137,5 +137,20 @@ public class Main {
 
         days = (days1+days2)/2;
             System.out.println("В среднем спортсмен похудеет за "+days+" дней");
+
+        int salaryMaria = 67760;
+        int increasedSalaryMaria = salaryMaria+(salaryMaria/10);
+        int increaseSalaryMariaAllYear = (increasedSalaryMaria-salaryMaria)*12;
+            System.out.println("Маша теперь получает "+increasedSalaryMaria+" рублей. Годовой доход вырос на "+increaseSalaryMariaAllYear+" рублей");
+
+        int salaryDenis = 83690;
+        int increasedSalaryDenis = salaryDenis+(salaryDenis/10);
+        int increaseSalaryDenisAllYear = (increasedSalaryDenis-salaryDenis)*12;
+        System.out.println("Денис теперь получает "+increasedSalaryDenis+" рублей. Годовой доход вырос на "+increaseSalaryDenisAllYear+" рублей");
+
+        int salaryKristy = 76230;
+        int increasedSalaryKristy = salaryKristy+(salaryKristy/10);
+        int increaseSalaryKristyAllYear = (increasedSalaryKristy-salaryKristy)*12;
+        System.out.println("Кристина теперь получает "+increasedSalaryKristy+" рублей. Годовой доход вырос на "+increaseSalaryKristyAllYear+" рублей");
     }
 }
