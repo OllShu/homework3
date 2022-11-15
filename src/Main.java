@@ -94,5 +94,14 @@ public class Main {
         timetotal = timeOneDay*days;
         bottles = efficiency*timetotal;
             System.out.println("За "+month+" месяц машина произвела бутылок "+bottles+" штук");
+
+        int white = 2;
+        int brown = 4;
+        int paintOneOffice = white+brown;
+        int totalpaint = 120;
+        int schooloffice = totalpaint/paintOneOffice;
+        int whitetotal = white*schooloffice;
+        int browntotal = brown*schooloffice;
+            System.out.println("В школе, где "+schooloffice+" классов, нужно "+whitetotal+" банок белой краски и "+browntotal+" банок коричневой краски");
     }
 }
