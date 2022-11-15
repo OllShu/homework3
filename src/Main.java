@@ -74,8 +74,8 @@ public class Main {
         System.out.println("На каждого ученика рассчитано "+paperone+" листов бумаги");
 
         int timeall = 2;
-        int bottles = 16;
-        int efficiency = bottles/timeall;
+        double bottles = 16;
+        double efficiency = bottles/timeall;
         timeall = 20;
         bottles = efficiency*timeall;
             System.out.println("За "+timeall+" минут машина произвела бутылок "+bottles+" штук");
@@ -84,8 +84,8 @@ public class Main {
         bottles = efficiency*timeOneDay;
         System.out.println("За 1 сутки машина произвела бутылок "+bottles+" штук");
 
-        int days = 3;
-        int timetotal = timeOneDay*days;
+        double days = 3.0;
+        double timetotal = timeOneDay*days;
         bottles = efficiency*timetotal;
             System.out.println("За "+days+" дня машина произвела бутылок "+bottles+" штук");
 
@@ -123,5 +123,19 @@ public class Main {
         double weightproducts = weightbananas+weightmilk+weightIceCream+weightEggs;
         weightproducts = weightproducts/1000;
             System.out.println("Завтрак спортсмена весит "+weightproducts+" кг");
+
+        int loseWeight = 7000;
+        int loseWeightOneDay1 = 250;
+        days = loseWeight/loseWeightOneDay1;
+        double days1 = days;
+            System.out.println("Если спортсмен будет терять по "+loseWeightOneDay1+" грамм каждый день, то на похудение уйдет "+days+" дней");
+
+        int loseWeightOneDay2 = 500;
+        days = loseWeight/loseWeightOneDay2;
+        double days2 = days;
+            System.out.println("Если спортсмен будет терять по "+loseWeightOneDay2+" грамм каждый день, то на похудение уйдет "+days+" дней");
+
+        days = (days1+days2)/2;
+            System.out.println("В среднем спортсмен похудеет за "+days+" дней");
     }
 }
