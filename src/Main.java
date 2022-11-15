@@ -72,5 +72,27 @@ public class Main {
         int paperall = 480;
         int paperone = paperall/students;
         System.out.println("На каждого ученика рассчитано "+paperone+" листов бумаги");
+
+        int timeall = 2;
+        int bottles = 16;
+        int efficiency = bottles/timeall;
+        timeall = 20;
+        bottles = efficiency*timeall;
+            System.out.println("За "+timeall+" минут машина произвела бутылок "+bottles+" штук");
+
+        int timeOneDay = 60*24;
+        bottles = efficiency*timeOneDay;
+        System.out.println("За 1 сутки машина произвела бутылок "+bottles+" штук");
+
+        int days = 3;
+        int timetotal = timeOneDay*days;
+        bottles = efficiency*timetotal;
+            System.out.println("За "+days+" дня машина произвела бутылок "+bottles+" штук");
+
+        int month = 1;
+        days = 30;
+        timetotal = timeOneDay*days;
+        bottles = efficiency*timetotal;
+            System.out.println("За "+month+" месяц машина произвела бутылок "+bottles+" штук");
     }
 }
